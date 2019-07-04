@@ -5,10 +5,10 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
   response.write('<html>');
-response.write('<body>');
-response.write('<h1>Hello, World!</h1>');
-response.write('</body>');
-response.write('</html>');
+  response.write('<body>');
+  response.write('<h1>Hello, World!</h1>');
+  response.write('</body>');
+  response.write('</html>');
   res.end('<h1>Registro</h1>');
 });
 
